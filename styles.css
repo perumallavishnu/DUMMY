@@ -1,6 +1,16 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
-    background-color: aqua;
+    background-color: rgb(45, 118, 190);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    font-weight: 600;
+    font-size: medium;
 }
